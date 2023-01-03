@@ -33,7 +33,7 @@ checklogged();
 
 function checklogged() {
     if(session) {
-        sessionStorage.setItem("logged, session");
+        sessionStorage.setItem(logged, "session");
         logged= session;
     }
 
